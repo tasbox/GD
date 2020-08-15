@@ -33,7 +33,7 @@ function run($sql)
 /**
  * 结束并返回json格式代码
  */
-function dieJson($statuscode = 0, $message = "unonown", $data = [])
+function dieJson($statuscode = 0, $message = "unknown", $data = [])
 {
     $array = [
         "statusCode" => $statuscode,
